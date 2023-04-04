@@ -183,10 +183,12 @@ def create_election():
 
     if len(existing_election_docs) > 0:
         return jsonify({'error': 'Election with this ID already exists'}), 409
+    
+    elections_ref = db.collection('Elections').document(new_election['election_ID'])
 
-    elections_ref.add(new_election)
+    elections_ref.set(new_election)
 
-    return jsonify(new_election)
+    return jsonify(new_election), 201
 
         
 
@@ -248,7 +250,7 @@ def get_all_elections():
 # # #To vote, a voter's ID and the ID of the candidate to be voted for will be needed
 # # #Using PATCH is for updating just some of the fields in the resource and since it does not send the complete resource representation it is more bandwidth efficient 
 # # @functions_framework.http
-@app.route('/vote', methods=['PATCH'])
+@app.route('/vote', methods=['PUT'])
 def cast_vote():
     vote_data = json.loads(request.data)
     voter_id = vote_data['voter_ID']
