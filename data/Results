@@ -1,0 +1,17 @@
+Hello wORLD{
+  "name": "International Students Association",
+  "candidate_results": [
+    {
+      "candidate_name": "Jamal Musiala",
+      "no_votes": 2
+    },
+    {
+      "candidate_name": "Nico Hulkenberg",
+      "no_votes": 2
+    },
+    {
+      "candidate_name": "Hans Rublev",
+      "no_votes": 1
+    }
+  ]
+}

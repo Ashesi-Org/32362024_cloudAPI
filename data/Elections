@@ -1,0 +1,133 @@
+[
+  {
+    "election_ID": "2",
+    "name": "JEC Chairperson Elections",
+    "start_date": "20-01-2023",
+    "end_date": "20-01-2023",
+    "position": "JEC Chairperson",
+    "candidates": [
+      {
+        "candidate_name": "Jamal Musiala",
+        "candidate_id": "2cd1"
+      },
+      {
+        "candidate_name": "Nico Hulkenberg",
+        "candidate_id": "2cd2"
+      },
+      {
+        "candidate_name": "Hans Rublev",
+        "candidate_id": "2cd3"
+      }
+    ],
+    "votes": [
+      {
+        "candidate_id": "2cd1",
+        "voter_IDs": [
+          1,
+          2
+        ]
+      },
+      {
+        "candidate_id": "2cd2",
+        "voter_IDs": [
+          3,
+          4
+        ]
+      },
+      {
+        "candidate_id": "2cd3",
+        "voter_IDs": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "election_ID": "3",
+    "end_date": "31-01-1912",
+    "name": "Italian Senate Elections",
+    "position": "Senator",
+    "start_date": "30-01-1912",
+    "candidates": [
+      {
+        "candidate_name": "Joe Pescie",
+        "candidate_id": "3cd1"
+      },
+      {
+        "candidate_name": "Gianluca Scammacca",
+        "candidate_id": "3cd2"
+      },
+      {
+        "candidate_name": "Donte DiVincenzo",
+        "candidate_id": "3cd3"
+      }
+    ],
+    "votes": [
+      {
+        "candidate_id": "3cd1",
+        "voter_IDs": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "candidate_id": "3cd2",
+        "voter_IDs": [
+          4,
+          6
+        ]
+      },
+      {
+        "candidate_id": "3cd3",
+        "voter_IDs": []
+      }
+    ]
+  },
+  {
+    "election_ID": "5",
+    "name": "International Students Association",
+    "start_date": "20-01-2023",
+    "end_date": "20-01-2023",
+    "position": "President",
+    "candidates": [
+      {
+        "candidate_name": "Jamal Musiala",
+        "candidate_id": "2cd1"
+      },
+      {
+        "candidate_name": "Nico Hulkenberg",
+        "candidate_id": "2cd2"
+      },
+      {
+        "candidate_name": "Hans Rublev",
+        "candidate_id": "2cd3"
+      }
+    ],
+    "votes": [
+      {
+        "candidate_id": "2cd1",
+        "voter_IDs": [
+          1,
+          2,
+          "9"
+        ]
+      },
+      {
+        "candidate_id": "2cd2",
+        "voter_IDs": [
+          3,
+          4,
+          "18"
+        ]
+      },
+      {
+        "candidate_id": "2cd3",
+        "voter_IDs": [
+          6,
+          "4"
+        ]
+      }
+    ]
+  }
+]

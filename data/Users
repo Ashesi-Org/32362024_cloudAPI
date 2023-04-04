@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mauricio Pochettino",
+    "voter_ID": "9",
+    "year_group": "2024",
+    "major": "CS"
+  },
+  {
+    "name": "Gareth Southgate",
+    "voter_ID": "18",
+    "year_group": "2022",
+    "major": "MIS"
+  },
+  {
+    "name": "Josep Guardiola",
+    "voter_ID": "4",
+    "year_group": "2024",
+    "major": "EE"
+  }
+]
